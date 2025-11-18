@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/Styles/InventoryStyle.uss?fileID=7433441132597879392&amp;guid=5551cf8a4a612b04e8a6ae73ea793900&amp;type=3#InventoryStyle" />
+    <ui:VisualElement name="inventory-root" class="inventory-root" style="height: 466px; bottom: 2px; right: 0; left: 0;">
+        <ui:VisualElement class="tab-bar">
+            <ui:Button name="tab-resources" text="Resources" class="tab-button" />
+            <ui:Button name="tab-buildings" text="Buildings" class="tab-button" />
+            <ui:Button name="tab-decorations" text="Decorations" class="tab-button" />
+            <ui:Button name="tab-other" text="Other" class="tab-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="page-controls">
+            <ui:Button name="page-prev" text="◀" class="page-button" />
+            <ui:Label name="page-label" text="1 / 1" class="page-label" style="font-size: 26px;" />
+            <ui:Button name="page-next" text="▶" class="page-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="slot-grid" class="slot-grid" style="height: 285px; display: flex;" />
+    </ui:VisualElement>
+</ui:UXML>

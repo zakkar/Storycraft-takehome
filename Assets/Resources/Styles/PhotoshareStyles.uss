@@ -1,0 +1,193 @@
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-container {
+    position: absolute;
+    width: 177%;
+    max-width: 400px;
+    align-self: center;
+    top: 10%;
+    padding: 20px;
+    background-color: rgb(38, 38, 46);
+    border-radius: 16px;
+    opacity: 1;
+    flex-shrink: 1;
+    min-width: 27px;
+    min-height: 1px;
+}
+
+.photo-card {
+    margin-bottom: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgb(26, 26, 30);
+}
+
+.photo-preview {
+    width: 100%;
+    height: 300px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.stats-bar {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: rgba(20, 20, 24, 0.9);
+}
+
+.stat-item {
+    color: white;
+    font-size: 14px;
+}
+
+.caption-input {
+    margin-bottom: 16px;
+    height: 44px;
+    background-color: rgb(26, 26, 30);
+    border-radius: 8px;
+    padding-left: 12px;
+    color: white;
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    border-width: 0;
+}
+
+.btn-primary {
+    flex-grow: 1;
+    margin-right: 8px;
+    background-color: rgb(76, 153, 255);
+}
+
+.btn-primary:hover {
+    background-color: rgb(96, 173, 255);
+}
+
+.btn-secondary {
+    flex-grow: 1;
+    background-color: rgb(64, 64, 71);
+}
+
+.btn-secondary:hover {
+    background-color: rgb(84, 84, 91);
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 16px;
+}
+
+.share-sheet {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(38, 38, 46);
+    padding: 24px 20px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.share-sheet-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+    -unity-text-align: middle-center;
+}
+
+.share-options {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.share-option {
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 8px;
+    background-color: transparent;
+    border-width: 0;
+}
+
+.share-option:hover {
+    background-color: rgba(64, 64, 71, 0.5);
+    border-radius: 8px;
+}
+
+.share-option-icon {
+    font-size: 48px;
+    margin-bottom: 4px;
+}
+
+.share-option-text {
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    -unity-text-align: middle-center;
+}
+
+.toast-container {
+    position: absolute;
+    top: 60px;
+    align-self: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: rgba(26, 26, 30, 0.95);
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: rgba(77, 77, 89, 0.5);
+}
+
+.unity-button--with-icon {
+    transition-duration: 0.35s;
+}
+
+.unity-button--with-icon:hover {
+    transition-duration: 0.35s;
+    scale: 1.1 1.1;
+    transition-delay: 0.2s;
+}
+
+.unity-button--with-icon:active {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition-duration: 0.35s;
+    border-left-color: rgba(0, 0, 0, 0.22);
+    border-right-color: rgba(0, 0, 0, 0.22);
+    border-top-color: rgba(0, 0, 0, 0.22);
+    border-bottom-color: rgba(0, 0, 0, 0.22);
+}
+
+.reward-overlay {
+    background-color: rgba(0, 0, 0, 0.92);
+    -unity-background-image-tint-color: rgb(253, 253, 253);
+    background-size: 176% 3091%;
+}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64078c8f87b7db4aa17869220c389dc, type: 3}
+  m_Name: StoneHouse
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Inventory.InventoryItemDefinition
+  itemId: house-001
+  displayName: Stone House
+  icon: {fileID: 1718435485421201579, guid: 9ce342b5af4fbdc48b756e137d416d2b, type: 3}
+  category: 1
+  description: House for testing

@@ -1,0 +1,124 @@
+.inventory-root {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(20, 20, 30, 0.95);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 12px;
+    border-top-width: 2px;
+    border-color: rgba(100, 100, 120, 0.5);
+}
+
+.tab-bar {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.tab-button {
+    flex-grow: 1;
+    margin: 2px;
+    padding: 8px 4px;
+    background-color: rgba(60, 60, 80, 0.8);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(100, 100, 120, 0.6);
+    color: rgb(200, 200, 220);
+    font-size: 38px;
+    -unity-text-align: middle-center;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.tab-button:hover {
+    background-color: rgba(80, 80, 100, 0.9);
+}
+
+.tab-selected {
+    background-color: rgba(100, 150, 255, 0.8);
+    border-color: rgb(120, 170, 255);
+    color: rgb(255, 255, 255);
+}
+
+.page-controls {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 4px;
+}
+
+.page-button {
+    width: 46px;
+    height: 46px;
+    margin: 0 8px;
+    background-color: rgba(80, 80, 100, 0.8);
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgba(120, 120, 140, 0.6);
+    color: rgb(220, 220, 240);
+    font-size: 16px;
+    -unity-text-align: middle-center;
+}
+
+.page-button:hover {
+    background-color: rgba(100, 100, 120, 0.9);
+}
+
+.page-label {
+    min-width: 60px;
+    padding: 4px 12px;
+    color: rgb(220, 220, 240);
+    font-size: 14px;
+    -unity-text-align: middle-center;
+}
+
+.slot-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 8px;
+    min-height: 160px;
+}
+
+.inventory-slot {
+    width: 120px;
+    height: 120px;
+    margin: 4px;
+    background-color: rgba(40, 40, 60, 0.9);
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: rgba(80, 80, 100, 0.8);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inventory-slot:hover {
+    background-color: rgb(60, 60, 80);
+    border-color: rgb(120, 150, 200);
+}
+
+.inventory-slot-empty {
+    opacity: 0.4;
+}
+
+.inventory-slot-icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.inventory-slot-quantity {
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-right;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
