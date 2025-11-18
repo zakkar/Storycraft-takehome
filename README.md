@@ -36,6 +36,7 @@ Most of the implementation work focuses on **Photo Mode**, while the Inventory u
 - Bottom-sheet layout for mobile
 - Data-driven structure ready for extensions like drag & drop or item details
 
+**Result:** Improved user-experience and navigation clarity.
 ---
 
 ## 3. Technical Decisions
@@ -45,7 +46,6 @@ Most of the implementation work focuses on **Photo Mode**, while the Inventory u
 - Modal workflow implemented for share modal → share sheet → reward overlay.
 - Cached element references (query once)
 - Coroutines stop cleanly on disable
-
 ---
 
 ## 4. How to Run
@@ -54,7 +54,8 @@ Most of the implementation work focuses on **Photo Mode**, while the Inventory u
 - **Scene:** `Scenes/PictureShareDemo.unity`
     - Press the button in the middle of the screen to trigger the Photo Mode flow.
 - **Scene:** `Scenes/InventoryDemo.unity`
-     - The size of the inventory can be modified 
+     - The size of the inventory can be modified via the Inventory UI Game object
+     - The inventory Debugger can be used to add items, need to use the contextual menu for the change to take effect
 
 ---
 
